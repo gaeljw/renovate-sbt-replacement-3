@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "sbt-package"
+      ],
+      "matchDepNames": [
+        "org.scalatestplus:mockito-3-12"
+      ],
+      "replacementName": "org.scalatestplus:mockito-4-11",
+      "replacementVersion": "3.12.16.0"
+    },
+    {
+      "matchDatasources": [
+        "sbt-package"
+      ],
+      "matchDepNames": [
+        "org.scalatestplus:junit-4-13"
+      ],
+      "replacementName": "org.scalatestplus:junit-5-13",
+      "replacementVersion": "3.12.19.0"
+    },
+    {
+      "matchDatasources": [
+        "sbt-package"
+      ],
+      "matchDepNames": [
+        "org.scalatestplus:testng-6-7"
+      ],
+      "replacementName": "org.scalatestplus:testng-7-9",
+      "replacementVersion": "3.12.18.0"
+    }
+  ]
+}
