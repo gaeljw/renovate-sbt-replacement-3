@@ -1,7 +1,7 @@
 
 scalaVersion := "2.13.17"
 
-libraryDependencies += "org.scalatestplus" %% "mockito-3-12" % "3.2.10.0"
+libraryDependencies += "org.scalatestplus" %% "mockito-4-11" % "3.12.16.0"
 
 // Using a shared variable
 val junitVersion = "3.12.19.1"
