@@ -11,4 +11,4 @@ libraryDependencies += "org.scalatestplus" %% "junit-4-13" % junitVersion
 libraryDependencies += "org.scalatest" %% "scalatest-core" % "3.2.18"
 
 // Both a replacement and a regular upgrade
-libraryDependencies += "org.scalatestplus" %% "testng-6-7" % "3.2.9.0"
+libraryDependencies += "org.scalatestplus" %% "testng-6-7" % "3.2.10.0"
