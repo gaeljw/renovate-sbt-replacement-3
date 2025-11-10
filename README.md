@@ -1,0 +1,1 @@
+# renovate-sbt-replacement-3
