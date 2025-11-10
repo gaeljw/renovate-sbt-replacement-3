@@ -8,7 +8,7 @@ val junitVersion = "3.12.19.1"
 libraryDependencies += "org.scalatestplus" %% "junit-4-13" % junitVersion
 
 // A regular update without replacement
-libraryDependencies += "org.scalatest" %% "scalatest-core" % "3.2.18"
+libraryDependencies += "org.scalatest" %% "scalatest-core" % "3.2.19"
 
 // Both a replacement and a regular upgrade
 libraryDependencies += "org.scalatestplus" %% "testng-6-7" % "3.2.9.0"
