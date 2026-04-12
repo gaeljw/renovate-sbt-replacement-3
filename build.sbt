@@ -1,5 +1,6 @@
 
-scalaVersion := "2.13.17"
+val TheScalaVersion = "2.13.17"
+scalaVersion := TheScalaVersion
 
 libraryDependencies += "org.scalatestplus" %% "mockito-3-12" % "3.2.10.0"
 
